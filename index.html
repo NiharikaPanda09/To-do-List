@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+
+   <h1>To-do List</h1>
+
+    <form id="new-task">
+             <input type="text" id="input-task">
+             <button id="add-task-button">Add Task</button>
+    </form>
+
+
+<ul id="task-list">
+
+    <li><input type="checkbox" class="check">
+    <span class="task">Eat</span>
+    <button onclick="deleteItem(this)" class="delete-btn"></button>
+    </li>
+
+    <li><input type="checkbox" class="check">
+        <span class="task">Code</span>
+        <button onclick="deleteItem(this)" class="delete-btn"></button>
+    </li>
+
+    <li><input type="checkbox" class="check">
+        <span class="task">Sleep</span>
+        <button onclick="deleteItem(this)" class="delete-btn"></button>
+    </li>
+</ul>
+</main>
+
+</body>
+<script src="script.js"></script>
+</html>
